@@ -2,7 +2,8 @@
 
 # Project:
 
-Semantic search engine that identifies and retrieves relevant paragraphs of new articles that match a query expressed in natural language
+A simple semantic search engine that identifies and retrieves relevant paragraphs of new articles that match a query expressed in natural language.
+Using all-MiniLM-L6-v2 model and cosine similarity to rank the results.
 
 # NOTES
 
@@ -53,7 +54,7 @@ Tokenisation prepares raw text for transformer models by dividing it into smalle
 
 During pre-training the model learn to generates embeddings to represent different words.
 
-****\*\*\*\*****\*\*\*\*****\*\*\*\*****Transformer Models****\*\*\*\*****\*\*\*\*****\*\*\*\*****
+\***\*\*\*\*\*\*\***\*\*\*\*\***\*\*\*\*\*\*\***Transformer Models\***\*\*\*\*\*\*\***\*\*\*\*\***\*\*\*\*\*\*\***
 
 - **BERT**: Bidirectional encoder representations from transformers.
 
